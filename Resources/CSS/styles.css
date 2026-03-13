@@ -6,8 +6,50 @@ html {
     box-sizing: border-box;
     color: rgb(68, 41, 1);
     background-color: rgb(225, 200, 120);
+    padding: 0px;
+    margin: 0px;
+    border: solid red 1px !important;
 }
 
 h1 {
     font-size: 1.5rem;
+}
+
+p {
+    background-color: rgba(0,0,0,0);
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    display: inline;
+    z-index: 4;
+}
+
+.header {
+    margin: 20px;
+    text-align: center;
+}
+
+.about {
+    background-image: url(../Images/honeycomb.jpg);
+    background-position: center;
+    height: 640px;
+    width: 100%;
+    display: flex;
+}
+
+.word-box {
+    align-self: center;
+    width: 100%;
+    padding: 50px;
+    background-color: rgba(225, 200, 120, 0.8);
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.gallery {
+    height: 720px;
+    z-index: 4;
+    background-color: aqua;
 }
