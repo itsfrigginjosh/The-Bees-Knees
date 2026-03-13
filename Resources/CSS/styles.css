@@ -1,0 +1,13 @@
+html {
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(68, 41, 1);
+    background-color: rgb(225, 200, 120);
+}
+
+h1 {
+    font-size: 1.5rem;
+}
